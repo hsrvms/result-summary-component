@@ -1,0 +1,28 @@
+.app {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+}
+
+@media screen and (min-width: 650px) {
+  .app {
+    max-width: 1440px;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .card {
+    max-width: 640px;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+}
